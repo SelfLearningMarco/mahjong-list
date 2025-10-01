@@ -907,7 +907,7 @@ const columns = useMemo<MRT_ColumnDef<Person>[]>(
     enableColumnFilters: false,
     enableColumnActions: false,
     enableHiding: false,
-    enableFullScreenToggle: false,
+
     initialState: { density: 'compact' },
     enableDensityToggle: false,
     muiTableBodyCellProps: {
